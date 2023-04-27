@@ -4153,7 +4153,7 @@
     (property "Reference" "U4" (at 106.68 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "MCP73812T-420I-OT" (at 106.045 165.1 0)
+    (property "Value" "MCP73832" (at 106.045 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 105.41 181.61 0)
