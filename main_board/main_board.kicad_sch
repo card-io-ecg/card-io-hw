@@ -1754,6 +1754,7 @@
   (no_connect (at 254 109.22) (uuid 3544cf86-0466-47e2-ac3f-68e149aaaa6c))
   (no_connect (at 29.845 178.435) (uuid 3801769d-df09-4abb-9686-b9dcedb29dba))
   (no_connect (at 172.72 63.5) (uuid 67150c04-8ade-45ea-a1a2-33e04b4d1f4a))
+  (no_connect (at 153.67 88.9) (uuid bf6aa896-40cb-4c9b-9f3d-7ef35e7c7f1b))
 
   (wire (pts (xy 45.72 60.96) (xy 48.26 60.96))
     (stroke (width 0) (type default))
@@ -1834,10 +1835,6 @@
   (wire (pts (xy 224.79 93.98) (xy 224.79 95.25))
     (stroke (width 0) (type default))
     (uuid 18c3a263-d56c-4c53-aa95-4c5258304001)
-  )
-  (wire (pts (xy 153.67 88.9) (xy 159.385 88.9))
-    (stroke (width 0) (type default))
-    (uuid 1a6826db-eb2d-428d-87d9-f7c81bff39ae)
   )
   (wire (pts (xy 45.72 71.12) (xy 113.03 71.12))
     (stroke (width 0) (type default))
@@ -4416,31 +4413,6 @@
       (project "main_board"
         (path "/e55848cd-275a-4b5e-8e68-b5d8d07c8d31"
           (reference "#PWR031") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 159.385 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c28d356e-e525-46f3-8f35-08152d9fdd16)
-    (property "Reference" "#PWR042" (at 159.385 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 159.385 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 159.385 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 159.385 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9c8a6e7d-89dd-4f27-a499-9b56bb70702a))
-    (instances
-      (project "main_board"
-        (path "/e55848cd-275a-4b5e-8e68-b5d8d07c8d31"
-          (reference "#PWR042") (unit 1)
         )
       )
     )
