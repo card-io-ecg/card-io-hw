@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.3,
-          "width": 1.5
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,6 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
+          "45_degree_only": false,
           "min_clearance": 0.19999999999999998
         }
       },
@@ -110,6 +111,8 @@
         "zones_intersect": "error"
       },
       "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.19999999999999998,
@@ -174,7 +177,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.25
+        0.25,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -186,7 +190,8 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
     },
     "layer_presets": [],
     "viewports": []
