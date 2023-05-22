@@ -6,8 +6,8 @@
 
   (title_block
     (title "Card/IO ECG main board")
-    (date "2023-04-26")
-    (rev "1")
+    (date "2023-05-22")
+    (rev "2")
   )
 
   (lib_symbols
@@ -1750,7 +1750,6 @@
       )
     )
   )
-
 
   (junction (at 96.52 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 08470fbd-7f4c-46dd-9aef-b1a146beb3f2)

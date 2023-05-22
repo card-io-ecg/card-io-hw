@@ -3037,7 +3037,7 @@
   (gr_text "1" (at 88.55 98.35) (layer "B.Cu") (tstamp 8c455799-8331-4110-a489-3482682aaa4d)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom mirror))
   )
-  (gr_text "Card/IO v1r1\nNot for medical use" (at 129.9 53.15) (layer "B.SilkS") (tstamp 1037ee18-9961-45a9-9d7f-75f8f5468f90)
+  (gr_text "Card/IO v1r2\nNot for medical use" (at 129.9 53.15) (layer "B.SilkS") (tstamp 1037ee18-9961-45a9-9d7f-75f8f5468f90)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "JLCJLCJLCJLC" (at 136.5 55) (layer "F.SilkS") (tstamp 3fc07eb2-1aae-4188-930c-1d612d2fda3d)
