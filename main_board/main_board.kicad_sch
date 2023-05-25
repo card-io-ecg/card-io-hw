@@ -5143,7 +5143,7 @@
     (property "Value" "Conn_ARM_JTAG_SWD_10" (at 173.99 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical" (at 185.42 71.12 0)
+    (property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical" (at 185.42 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" (at 194.31 102.87 90)
