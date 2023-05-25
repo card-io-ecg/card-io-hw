@@ -1,4 +1,4 @@
-21678921569035517
+21680606583753653
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90196,6 +90196,13 @@ varistor
 2
 main_board_parts
 Battery
+320mAh puch battery
+
+0
+2
+2
+main_board_parts
+Battery_transplant
 320mAh puch battery
 
 0

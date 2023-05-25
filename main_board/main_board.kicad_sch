@@ -3545,7 +3545,7 @@
     (property "Value" "Battery_Cell" (at 126.365 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "main_board_parts:Battery" (at 125.73 176.276 90)
+    (property "Footprint" "main_board_parts:Battery_transplant" (at 125.73 176.276 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 176.276 90)
