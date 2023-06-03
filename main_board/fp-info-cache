@@ -1,4 +1,4 @@
-21685663907789318
+21687349687788421
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90229,6 +90229,13 @@ Electrode
 0
 1
 1
+main_board_parts
+MAX17055
+
+
+0
+11
+11
 main_board_parts
 SSD1306
 Mirrored solder pads for SSD1306 - needs to be soldered display facing the pads
