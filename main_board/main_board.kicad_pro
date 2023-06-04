@@ -56,7 +56,9 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|97050001|90449999|819e7da1-d37a-4a25-8abf-d6feebe00ebb|8c5fc926-74ad-44a8-b24e-d49949dff028"
+        "courtyards_overlap|97050001|90449999|819e7da1-d37a-4a25-8abf-d6feebe00ebb|8c5fc926-74ad-44a8-b24e-d49949dff028",
+        "lib_footprint_mismatch|147350000|93612500|7b85d881-00b0-4008-8627-29973e75db12|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|112550000|79750000|d93ec854-6da3-4594-9454-6175182c019f|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -93,7 +95,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
