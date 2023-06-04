@@ -6,7 +6,7 @@
 
   (title_block
     (title "Card/IO ECG daughter board")
-    (date "2023-05-19")
+    (date "2023-06-04")
     (rev "2")
   )
 
@@ -737,6 +737,37 @@
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "frontend_parts:logo" (in_bom yes) (on_board yes)
+      (property "Reference" "G" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "logo_1_1"
+        (polyline
+          (pts
+            (xy -3.429 -0.254)
+            (xy 0.762 -0.254)
+            (xy 1.27 1.397)
+            (xy 1.651 -1.651)
+            (xy 1.905 -0.254)
+            (xy 3.302 -0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (text "Card IO" (at 0 0.635 0)
+          (effects (font (size 1.27 1.27)))
         )
       )
     )
@@ -1762,6 +1793,30 @@
       (project "frontend"
         (path "/e7afbd42-f5d0-401b-b125-21ade79cd152"
           (reference "ECG_L1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "frontend_parts:logo") (at 182.245 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 09d5ba22-9998-4129-a6bf-22505a851fff)
+    (property "Reference" "G1" (at 186.69 169.6362 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 182.245 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "frontend_parts:logo" (at 182.245 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 182.245 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "frontend"
+        (path "/e7afbd42-f5d0-401b-b125-21ade79cd152"
+          (reference "G1") (unit 1)
         )
       )
     )
