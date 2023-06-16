@@ -4596,7 +4596,7 @@
     (property "Reference" "R31" (at 93.1926 139.8016 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "5k" (at 93.1926 142.113 0)
+    (property "Value" "4.7k" (at 93.1926 142.113 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 93.218 140.97 90)
