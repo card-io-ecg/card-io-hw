@@ -1800,7 +1800,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 17.78 93.98 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 07102485-69a1-4b16-97f7-5f94da6af167)
     (property "Reference" "ECG_L1" (at 17.78 99.06 0)
       (effects (font (size 1.27 1.27)))
@@ -1825,7 +1825,7 @@
   )
 
   (symbol (lib_id "frontend_parts:logo") (at 182.245 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09d5ba22-9998-4129-a6bf-22505a851fff)
     (property "Reference" "G1" (at 186.69 169.6362 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1849,7 +1849,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 49.53 191.135 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0fbaa009-300a-4243-91be-72d3164fde84)
     (property "Reference" "AVSS1" (at 43.18 191.135 0)
       (effects (font (size 1.27 1.27)))
@@ -1874,7 +1874,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 139.7 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 11dd6510-5afa-4b07-a24b-2baeb8b8146a)
     (property "Reference" "~{DRDY}1" (at 275.59 139.7 0)
       (effects (font (size 1.27 1.27)))
@@ -1899,7 +1899,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 49.53 178.435 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 14bf14e2-fa54-4fca-8f34-35375021bca8)
     (property "Reference" "DGND1" (at 43.18 178.435 0)
       (effects (font (size 1.27 1.27)))
@@ -1950,7 +1950,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 115.57 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 19f51cc2-2232-45f7-a4a1-02d024fe722e)
     (property "Reference" "CLK_EN1" (at 278.13 115.57 0)
       (effects (font (size 1.27 1.27)))
@@ -1975,7 +1975,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 95.25 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1b173435-004b-4c76-adfb-40c8dd60998d)
     (property "Reference" "MOSI1" (at 275.59 95.25 0)
       (effects (font (size 1.27 1.27)))
@@ -2077,7 +2077,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 49.53 184.785 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 22e02417-4284-4f5f-b95f-1e3e4b63dc9b)
     (property "Reference" "AVDD1" (at 43.18 184.785 0)
       (effects (font (size 1.27 1.27)))
@@ -2503,7 +2503,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 17.78 111.76 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 600e3815-3b9e-480a-811b-3c887bc46d89)
     (property "Reference" "ECG_R1" (at 17.78 116.84 0)
       (effects (font (size 1.27 1.27)))
@@ -2528,7 +2528,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 101.6 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 6cdab88c-d7dd-492b-8fe3-6c951ca65ab1)
     (property "Reference" "~{CS}1" (at 274.32 101.6 0)
       (effects (font (size 1.27 1.27)))
@@ -2553,7 +2553,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 73.66 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 6f4b9c5f-f493-4ebe-896c-a73dbebb011c)
     (property "Reference" "RLD_OUT1" (at 276.86 73.66 0)
       (effects (font (size 1.27 1.27)))
@@ -2578,7 +2578,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 146.05 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7106fb07-6f66-4152-9211-7c7827723b20)
     (property "Reference" "~{RESET}/~{PDN}1" (at 278.13 146.05 0)
       (effects (font (size 1.27 1.27)))
@@ -2654,7 +2654,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 67.31 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 753b7283-8d28-441c-9473-264c6c57c2d4)
     (property "Reference" "~{TOUCH_DET}1" (at 278.13 67.31 0)
       (effects (font (size 1.27 1.27)))
@@ -2679,7 +2679,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 88.9 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7642fbb5-6dc5-458e-bfc3-c9ee113eb5d7)
     (property "Reference" "SCLK1" (at 275.59 88.9 0)
       (effects (font (size 1.27 1.27)))
@@ -2913,7 +2913,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 207.01 132.08 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a22027a7-7d21-450d-9c97-f272f38ac58b)
     (property "Reference" "JP1" (at 209.55 132.715 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3169,7 +3169,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 49.53 172.085 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid bd8d95fa-a2c2-4a51-b3ec-9467dbbe9310)
     (property "Reference" "DVDD1" (at 43.18 172.085 0)
       (effects (font (size 1.27 1.27)))
@@ -3220,7 +3220,7 @@
   )
 
   (symbol (lib_id "frontend_parts:PAD") (at 269.24 82.55 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c1731af1-f013-4201-9562-e39570f079e5)
     (property "Reference" "MISO1" (at 275.59 82.55 0)
       (effects (font (size 1.27 1.27)))

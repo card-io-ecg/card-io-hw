@@ -4564,7 +4564,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 127 82.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2738914a-d378-4adc-a723-1084f6705de4)
     (property "Reference" "JP1" (at 125.095 81.915 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5627,7 +5627,7 @@
     (property "Reference" "R5" (at 47.625 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470K" (at 47.625 138.43 0)
+    (property "Value" "470k" (at 47.625 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 43.942 137.16 90)
@@ -7110,7 +7110,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 201.93 50.8 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid f393803d-3926-49c1-b009-f5756b1b0fb1)
     (property "Reference" "J2" (at 196.85 35.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
