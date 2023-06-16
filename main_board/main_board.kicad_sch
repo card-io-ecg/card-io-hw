@@ -6,8 +6,8 @@
 
   (title_block
     (title "Card/IO ECG main board")
-    (date "2023-06-05")
-    (rev "2")
+    (date "2023-06-16")
+    (rev "3")
   )
 
   (lib_symbols
@@ -5531,7 +5531,7 @@
     (property "Reference" "R18" (at 148.59 189.23 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.01R" (at 148.59 184.15 90)
+    (property "Value" "0.02R" (at 148.59 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 148.59 184.912 90)
