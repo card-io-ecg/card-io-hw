@@ -182,7 +182,6 @@
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
-    (property "variant" "charger.mcp73812")
     (path "/2742c038-13f8-4e51-b15b-83cc5b03631f")
     (attr smd)
     (fp_text reference "R14" (at 0 -1.43) (layer "F.SilkS") hide
@@ -359,7 +358,6 @@
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
-    (property "variant" "charger.mcp73812")
     (path "/510f1737-4bb9-4618-b412-9d544904e112")
     (attr smd)
     (fp_text reference "R6" (at 0 -1.43 90) (layer "F.SilkS") hide
