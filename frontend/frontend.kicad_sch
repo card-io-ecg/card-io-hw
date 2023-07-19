@@ -6,8 +6,8 @@
 
   (title_block
     (title "Card/IO ECG daughter board")
-    (date "2023-06-16")
-    (rev "3")
+    (date "2023-07-19")
+    (rev "4")
   )
 
   (lib_symbols
