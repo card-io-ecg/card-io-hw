@@ -50,13 +50,8 @@
   (pad "6" thru_hole oval (at -4.95 5.05 180) (size 1.2 2.5) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp b0b27164-f718-4eb8-ad3a-035fbf079010))
   (pad "6" thru_hole oval (at 4.95 1.05 90) (size 2.1 1.2) (drill oval 1.5 0.6) (layers "*.Cu" "*.Mask") (tstamp 5528b53f-01d9-45c9-a48c-41f58885fcf6))
   (pad "6" thru_hole oval (at 4.95 5.05) (size 1.2 2.5) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp 40bb8287-ec66-4bdb-a650-9fa23f8d283e))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105017-0001.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model "${KIPRJMOD}/main_board_parts.pretty/molex_476420001.stp"
-    (offset (xyz 0 -3.75 0))
+    (offset (xyz 0 -3.75 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
