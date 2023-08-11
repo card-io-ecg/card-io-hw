@@ -151,4 +151,9 @@
       )
     )
   )
+  (model "${KIPRJMOD}/main_board_parts.pretty/esp-wroom-32.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

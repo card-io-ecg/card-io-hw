@@ -55,4 +55,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KIPRJMOD}/main_board_parts.pretty/molex_476420001.stp"
+    (offset (xyz 0 -3.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
