@@ -23,7 +23,7 @@ usbHeight =            flatCutout ? 1   : 2.6;
 usbEndHeight =         flatCutout ? 1   : 3;
 
 wallThickness = 0.6;
-wallHeight = 2.5;
+wallHeight = 3;
 edgeRounding = 1;
 cornerRadius = 1.4;
 
