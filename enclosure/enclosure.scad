@@ -19,11 +19,10 @@ frontendMaskHeight =   flatCutout ? 0.1 : 3;
 espMaskHeight =        flatCutout ? 0.1 : 3;
 espPcbMaskHeight =     flatCutout ? 0.1 : 1.2;
 batteryMaskHeight =    flatCutout ? 0.1 : 3;
-usbHeight =            flatCutout ? 1   : 2.6;
-usbEndHeight =         flatCutout ? 1   : 3;
+usbHeight =            flatCutout ? 1   : 3.4;
 
 wallThickness = 0.6;
-wallHeight = 3;
+wallHeight = 3.2;
 edgeRounding = 1;
 cornerRadius = 1.4;
 
@@ -40,17 +39,10 @@ module boardAndParts()
     cube([27.8, 15, partMaskHeight]);
     //*/
 
-    /* USB port legs */
-    translate([34.5, 0, 0])
-    cube([12, 8, partMaskHeight]);
-    //*/
-
     /* USB port body */
     color("purple")
-    translate([36.5, -0.2, -1])
-    cube([8, 9, usbHeight]);
-    translate([36.4, -0.5, -1])
-    cube([8.2, 2, usbEndHeight]);
+    translate([36, -0.2, 0])
+    cube([9.5, 9, usbHeight]);
     //*/
 
     /* Battery */
@@ -101,14 +93,20 @@ module boardAndParts()
     translate([72, 21, 0])
     cube([7, 8, partMaskHeight]);
     //*/
-    
-    /* JTAG holes*/
+
+    /* JTAG holes */
     color("purple")
     translate([47, 0.5, 0])
     cube([4, 10, partMaskHeight]);
     color("purple")
     translate([53, 0.5, 0])
     cube([4, 10, partMaskHeight]);
+    //*/
+    
+    /* JTAG selector */
+    color("blue")
+    translate([55, 17, 0])
+    cube([4, 6, partMaskHeight]);
     //*/
 
     /* ===== Analog frontend ===== */
@@ -129,32 +127,35 @@ module boardAndParts()
 
 if (!design)
 {
-    translate([0, 0, - wallHeight - wallThickness])
-    difference()
-    {
-        /* ===== Shell ===== */
+    rotate([180, 0, 0])
+    union() {
+        translate([0, 0, - wallHeight - wallThickness])
         difference()
         {
-            /* Box */
-            translate([wallThickness, wallThickness, 0])
-            minkowski()
+            /* ===== Shell ===== */
+            difference()
             {
-                roundedRect([boxWidth-2*wallThickness, boxHeight-2*wallThickness, wallHeight], cornerRadius, false);
-                sphere(wallThickness);
+                /* Box */
+                translate([wallThickness, wallThickness, 0])
+                minkowski()
+                {
+                    roundedRect([boxWidth-2*wallThickness, boxHeight-2*wallThickness, wallHeight], cornerRadius, false);
+                    sphere(wallThickness);
+                }
+                    
+                /* cut the bottom half */
+                translate([-boxWidth, -boxHeight, -wallHeight])
+                cube([3 * boxWidth, 3 * boxHeight, wallHeight]);
             }
-                
-            /* cut the bottom half */
-            translate([-boxWidth, -boxHeight, -wallHeight])
-            cube([3 * boxWidth, 3 * boxHeight, wallHeight]);
-        }
 
-        boardAndParts();
-    }
-    
-    if (drawBoard) {
-        color("green")
-        translate([0, 0, -wallHeight -wallThickness - boardThickness])
-        import("main_board.stl");
+            boardAndParts();
+        }
+        
+        if (drawBoard) {
+            color("green")
+            translate([0, 0, -wallHeight -wallThickness - boardThickness])
+            import("main_board.stl");
+        }
     }
 }
 else
