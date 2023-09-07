@@ -22,7 +22,7 @@ batteryMaskHeight =    flatCutout ? 0.1 : 3;
 usbHeight =            flatCutout ? 1   : 3.4;
 
 wallThickness = 0.6;
-wallHeight = 3.2;
+wallHeight = 3.4;
 edgeRounding = 1;
 cornerRadius = 1.4;
 
@@ -51,7 +51,7 @@ module boardAndParts()
     translate([19, 6, 0])
     cube([10, 7, batteryMaskHeight]);
     translate([1, 10, 0])
-    cube([30, 42, batteryMaskHeight]);
+    cube([32, 42, batteryMaskHeight]);
     //*/
 
     /* Battery protection */
