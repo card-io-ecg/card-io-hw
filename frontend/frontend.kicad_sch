@@ -6,7 +6,7 @@
 
   (title_block
     (title "Card/IO ECG daughter board")
-    (date "2023-09-08")
+    (date "2023-09-11")
     (rev "5")
   )
 
@@ -3844,7 +3844,7 @@
     (property "Reference" "R12" (at 27.94 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2k" (at 27.94 135.89 0)
+    (property "Value" "1M" (at 27.94 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 25.908 133.35 90)

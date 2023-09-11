@@ -6,7 +6,7 @@
 
   (title_block
     (title "Card/IO ECG main board")
-    (date "2023-09-08")
+    (date "2023-09-11")
     (rev "5")
   )
 
@@ -2881,10 +2881,6 @@
     (stroke (width 0) (type default))
     (uuid 224cf57b-a90e-4d96-89e1-4f88f16e45cb)
   )
-  (wire (pts (xy 60.96 74.93) (xy 54.61 74.93))
-    (stroke (width 0) (type default))
-    (uuid 247d12a3-db90-4dbc-b6d1-a457daae697c)
-  )
   (wire (pts (xy 166.37 170.18) (xy 156.21 170.18))
     (stroke (width 0) (type default))
     (uuid 25d8cb19-be06-444a-bc2d-15fecfad79c1)
@@ -3005,7 +3001,7 @@
     (stroke (width 0) (type default))
     (uuid 4056afc5-306d-49b3-a74f-e8eb597d72a4)
   )
-  (wire (pts (xy 40.64 74.93) (xy 46.99 74.93))
+  (wire (pts (xy 40.64 74.93) (xy 60.96 74.93))
     (stroke (width 0) (type default))
     (uuid 40b7f216-b09b-417f-b9bb-946c0abebc7e)
   )
@@ -5746,32 +5742,6 @@
       (project "main_board"
         (path "/e55848cd-275a-4b5e-8e68-b5d8d07c8d31"
           (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 50.8 74.93 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 88cdee43-e7da-4d45-a036-212013ac9224)
-    (property "Reference" "R17" (at 49.53 72.39 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2k" (at 49.53 74.93 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 50.8 76.708 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 50.8 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 572ec2d2-eb34-4352-985d-1295a3865210))
-    (pin "2" (uuid ac88b04c-5b98-4879-8d15-c486b7f0615d))
-    (instances
-      (project "main_board"
-        (path "/e55848cd-275a-4b5e-8e68-b5d8d07c8d31"
-          (reference "R17") (unit 1)
         )
       )
     )
