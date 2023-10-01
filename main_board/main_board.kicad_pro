@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|97050001|90449999|819e7da1-d37a-4a25-8abf-d6feebe00ebb|8c5fc926-74ad-44a8-b24e-d49949dff028",
+        "courtyards_overlap|102950001|89449999|819e7da1-d37a-4a25-8abf-d6feebe00ebb|8c5fc926-74ad-44a8-b24e-d49949dff028",
         "lib_footprint_mismatch|147350000|93612500|7b85d881-00b0-4008-8627-29973e75db12|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|112550000|79750000|e49c1f5c-1b67-4a7e-b556-172ff6ab3ade|00000000-0000-0000-0000-000000000000"
       ],
