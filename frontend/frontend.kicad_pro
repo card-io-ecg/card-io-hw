@@ -452,7 +452,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../frontend.step",
+      "step": "../main_board/main_board_parts.pretty/frontend.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
