@@ -3755,8 +3755,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 42410fd2-a1ab-4f59-bda7-06c49455208a)
   )
-  (text "ESP32-C6-WROOM\nNo bottom pin row\nStrapping pins:\n - IO17: initially high\n - IO0: high for normal boot\n - IO42: ignored (high to use USB-JTAG)\nSPI: 1 + PARL_IO"
-    (at 161.29 -25.4 0)
+  (text "ESP32-C6-WROOM\nNo bottom pin row\nStrapping pins:\n - IO17: initially high\n - IO0: high for normal boot\n - IO42: ignored (high to use USB-JTAG)\nSPI: 1 + PARL_IO\nWakeup sources: IO0-IO7"
+    (at 161.29 -22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 42a7df03-c49b-4438-9b07-98ecd31bea4d)
   )
@@ -3764,8 +3764,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 66d542e3-03ed-4d7a-a932-076fc5bf2c69)
   )
-  (text "ESP32-S3-WROOM\nDo not use bottom pin row\nStrapping pins:\n - IO0: high for normal boot\n - IO45/IO46: low\n - IO3: ignored (high to use USB-JTAG)\nSPI: 2"
-    (at 114.3 -25.4 0)
+  (text "ESP32-S3-WROOM\nDo not use bottom pin row\nStrapping pins:\n - IO0: high for normal boot\n - IO45/IO46: low\n - IO3: ignored (high to use USB-JTAG)\nSPI: 2\nWakeup sources: IO0-IO21"
+    (at 115.57 -22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b7e075a-7479-4e78-b633-e70865b3cbd3)
   )
@@ -3773,8 +3773,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9a010eed-892d-4de4-a0d5-3c4bed447055)
   )
-  (text "ESP32-S2-SOLO\nDo not use bottom pin row\nStrapping pins:\n - IO0: high for normal boot\n - IO46: low\n - IO45: low\nSPI: 2"
-    (at 77.47 -25.4 0)
+  (text "ESP32-S2-SOLO\nDo not use bottom pin row\nStrapping pins:\n - IO0: high for normal boot\n - IO46: low\n - IO45: low\nSPI: 2\nWakeup sources: IO0-IO21"
+    (at 77.47 -22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a4bb6f39-32e8-42a4-9e33-3cf4ebcd7ec6)
   )
