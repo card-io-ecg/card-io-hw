@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|102950001|89449999|819e7da1-d37a-4a25-8abf-d6feebe00ebb|8c5fc926-74ad-44a8-b24e-d49949dff028",
-          ""
-        ],
-        [
           "silk_over_copper|112550000|79750000|e49c1f5c-1b67-4a7e-b556-172ff6ab3ade|00000000-0000-0000-0000-000000000000",
           ""
         ]
@@ -481,8 +477,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "main_board_parts"
+    ],
+    "pinned_symbol_libs": [
+      "main_board_parts"
+    ]
   },
   "meta": {
     "filename": "main_board.kicad_pro",
@@ -521,7 +521,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "main_board.step",
@@ -632,7 +632,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/_Hobby/CardIO/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
