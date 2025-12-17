@@ -6787,6 +6787,16 @@
 		)
 		(uuid dd2eacc4-7d16-48b0-9865-c445fb6217a4)
 	)
+	(text "Supports ESP32-C5 (no XTAL32K), C6, C61, S3"
+		(exclude_from_sim no)
+		(at 171.196 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "194287f8-f63d-4c29-8394-4dc40201fb45")
+	)
 	(text "Signal on TXD should tolerate\nthe boot rom output\nRXD should be output"
 		(exclude_from_sim no)
 		(at 168.148 42.672 0)
@@ -6808,6 +6818,16 @@
 			(justify left bottom)
 		)
 		(uuid "383a08c8-2b0d-4730-b0f4-12848782f0fe")
+	)
+	(text "On C5, XTAL32K is pin position 6/7"
+		(exclude_from_sim no)
+		(at 91.948 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ad987fa-2aad-4a31-9b97-3dfa1922375b")
 	)
 	(text "LP on all\nMCUs"
 		(exclude_from_sim no)
