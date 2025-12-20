@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Card/IO ECG main board")
-		(date "2025-11-30")
-		(rev "7")
+		(date "2025-12-19")
+		(rev "8")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
@@ -6787,6 +6787,16 @@
 		)
 		(uuid dd2eacc4-7d16-48b0-9865-c445fb6217a4)
 	)
+	(text "IO0: boot pin, use as output"
+		(exclude_from_sim no)
+		(at 164.338 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11627345-14c5-41e2-a061-745af2b29254")
+	)
 	(text "Supports ESP32-C5 (no XTAL32K), C6, C61, S3"
 		(exclude_from_sim no)
 		(at 171.196 17.526 0)
@@ -6913,7 +6923,7 @@
 	)
 	(text "CHG_STAT: add \ninternal pullup"
 		(exclude_from_sim no)
-		(at 165.608 71.12 0)
+		(at 168.656 64.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10175,7 +10185,7 @@
 		(uuid "38cbeae9-d817-4303-b919-a5a152c16d44")
 	)
 	(label "ECG_CS"
-		(at 163.83 41.91 180)
+		(at 163.83 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10265,7 +10275,7 @@
 		(uuid "7a1a4328-7b11-4279-bf69-8940e0e16e13")
 	)
 	(label "CHG_STAT"
-		(at 163.83 67.31 180)
+		(at 163.83 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10345,7 +10355,7 @@
 		(uuid "bebb03cb-efcd-4703-a8bc-73434c746e3e")
 	)
 	(label "DISPLAY_MOSI"
-		(at 163.83 59.69 180)
+		(at 163.83 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
