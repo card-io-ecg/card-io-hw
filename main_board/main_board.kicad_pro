@@ -548,7 +548,7 @@
       "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "main_board.step",
+      "step": "../enclosure/main_board.stl",
       "svg": "",
       "vrml": ""
     },

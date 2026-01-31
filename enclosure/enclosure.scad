@@ -50,8 +50,8 @@ module boardAndParts()
     cube([10, 7, batteryMaskHeight]);
     translate([19, 6, 0])
     cube([10, 7, batteryMaskHeight]);
-    translate([1, 10, 0])
-    cube([32, 42, batteryMaskHeight]);
+    translate([0.6, 10, 0])
+    cube([32.4, 43, batteryMaskHeight]);
     //*/
 
     /* Battery protection */
@@ -69,49 +69,33 @@ module boardAndParts()
     translate([32, 7.5, 0])
     cube([23, 9, highPartMaskHeight]);
     //*/
-    
-    /* RLD resistors */
-    translate([39.5, 46, 0])
-    cube([3, 3, partMaskHeight]);
-    //*/
 
     /* ===== MCU ===== */
-    translate([59, 2, 0])
-    cube([28, 18.8, espPcbMaskHeight]);
-    translate([59, 2, 0])
+    translate([60, 1.2, 0])
+    cube([27, 18.8, espPcbMaskHeight]);
+    translate([59, 1.6, 0])
     cube([20, 18.8, espMaskHeight]);
     /* MCU pads */
     color("purple")
-    translate([58, 1, 0])
-    cube([24, 20.8, partMaskHeight]);
+    translate([56.8, 0.6, 0])
+    cube([25.2, 20.8, partMaskHeight]);
     //*/
     /* MCU others */
-    translate([55, 9, 0])
-    cube([2.5, 3, partMaskHeight]);
-    translate([62, 21, 0])
-    cube([9, 7, partMaskHeight]);
-    translate([72, 21, 0])
-    cube([7, 8, partMaskHeight]);
-    //*/
-
-    /* JTAG holes */
+    // XTAL32K
+    translate([64, 21, 0])
+    cube([6, 7, partMaskHeight]);
+    // reset resistor / bypass caps
+    translate([72.5, 21, 0])
+    cube([6.5, 8, partMaskHeight]);
+    // I2C resistors
     color("purple")
-    translate([47, 0.5, 0])
-    cube([4, 10, partMaskHeight]);
-    color("purple")
-    translate([53, 0.5, 0])
-    cube([4, 10, partMaskHeight]);
-    //*/
-    
-    /* JTAG selector */
-    color("blue")
-    translate([55, 17, 0])
-    cube([4, 6, partMaskHeight]);
+    translate([50, 2.5, 0])
+    cube([5, 5, partMaskHeight]);
     //*/
 
     /* ===== Analog frontend ===== */
-    translate([48.2 , 29.8, 0])
-    cube([33.5, 23.5, frontendMaskHeight]);
+    translate([49, 30, 0])
+    cube([33.5, 24, frontendMaskHeight]);
     /* AFE pads */
     color("purple")
     translate([46, 47, 0])
